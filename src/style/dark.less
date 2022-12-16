@@ -1,0 +1,30 @@
+html.dark {
+  // header
+  --header-border-color: #262629;
+  --scrollbar-color: rgba(255, 255, 255, 0.2);
+
+  /* scrollbar */
+  * {
+    scrollbar-color: var(--scrollbar-color);
+  }
+
+  *::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar:horizontal {
+    width: 5px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--c-bg);
+    border-radius: 5px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-color);
+    border-radius: 5px;
+  }
+}

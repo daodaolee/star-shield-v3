@@ -1,0 +1,36 @@
+:root {
+  --header-border-color: #efeff5;
+  --scrollbar-color: rgba(0, 0, 0, 0.25);
+}
+
+/* scrollbar */
+* {
+  scrollbar-color: var(--scrollbar-color);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+
+  &:horizontal,
+  &:vertical {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+// 横纵滚动条交界处
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+// 轨道
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-color);
+  border-radius: 5px;
+}

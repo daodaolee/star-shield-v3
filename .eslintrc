@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "extends": [
+    "@antfu"
+  ],
+  "rules": {
+    // 末尾逗号
+    "comma-dangle": ["error", "never"
+    ],
+    // 末尾换行符
+    "eol-last": ["error", "never"
+    ],
+    // 尾随空格
+    // "no-trailing-spaces": "off",
+    // 允许使用以下引号
+    "quotes": [
+      1, "single"
+    ],
+    "no-console": "off",
+    "no-debugger": "off",
+    "no-restricted-syntax": "off",
+    "vue/component-name-in-template-casing": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/ban-ts-ignore": "off"
+  }
+}

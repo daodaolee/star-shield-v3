@@ -1,0 +1,25 @@
+@import "./var.less";
+@import "./dark.less";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// 滚动条消失
+.scrollbar-hide() {
+  &::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 0px;
+  }
+}
