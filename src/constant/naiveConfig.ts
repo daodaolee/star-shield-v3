@@ -1,4 +1,5 @@
 export const naiveComponents = [
+  'useButton',
   'useDialog',
   'useMessage',
   'useNotification',
@@ -6,8 +7,9 @@ export const naiveComponents = [
   'useIcon',
   'useBreadcrumb',
   'useTabs',
-  'useLayout',
-  'useButton'
+  'useTag',
+  'useLayout'
+
 ]
 
 export const appTheme = '#3d8cdd'
